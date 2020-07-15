@@ -1,0 +1,409 @@
+
+Starting Dijkstra
+final_dist:  {'rt1': 0.039999999999999994, 'rt2': 0.039999999999999994, 'rt3': 0.039999999999999994, 'rt4': 0.039999999999999994, 'rt5': 0.034999999999999996, 'rt6': 0.034999999999999996, 'rt7': 0.034999999999999996, 'rt8': 0.034999999999999996, 'rt9': 0.03, 'rt10': 0.03, 'rt11': 0.03, 'rt12': 0.03, 'rt13': 0.03, 'rt14': 0.03, 'rt15': 0.03, 'rt16': 0.03, 'rt17': 0.02, 'rt18': 0.02, 'rt19': 0.02, 'rt20': 0.02, 'rt21': 0.03, 'rt22': 0.03, 'rt23': 0.03, 'rt24': 0.03, 'rt25': 0.01, 'rt26': 0.02, 'rt27': 0}
+	 0.039999999999999994 : rt27, rt25, rt17, rt10, rt5, rt1
+	 700.0 ::: rt27, rt25, rt17, rt10, rt5, rt1
+	 0.039999999999999994 : rt27, rt25, rt17, rt10, rt5, rt2
+	 700.0 ::: rt27, rt25, rt17, rt10, rt5, rt2
+	 0.039999999999999994 : rt27, rt25, rt17, rt10, rt5, rt3
+	 700.0 ::: rt27, rt25, rt17, rt10, rt5, rt3
+	 0.039999999999999994 : rt27, rt25, rt17, rt10, rt5, rt4
+	 700.0 ::: rt27, rt25, rt17, rt10, rt5, rt4
+	 0.034999999999999996 : rt27, rt25, rt17, rt10, rt5
+	 500.0 ::: rt27, rt25, rt17, rt10, rt5
+	 0.034999999999999996 : rt27, rt25, rt18, rt11, rt6
+	 500.0 ::: rt27, rt25, rt18, rt11, rt6
+	 0.034999999999999996 : rt27, rt25, rt19, rt13, rt7
+	 500.0 ::: rt27, rt25, rt19, rt13, rt7
+	 0.034999999999999996 : rt27, rt25, rt20, rt15, rt8
+	 500.0 ::: rt27, rt25, rt20, rt15, rt8
+	 0.03 : rt27, rt25, rt17, rt9
+	 300.0 ::: rt27, rt25, rt17, rt9
+	 0.03 : rt27, rt25, rt17, rt10
+	 300.0 ::: rt27, rt25, rt17, rt10
+	 0.03 : rt27, rt25, rt18, rt11
+	 300.0 ::: rt27, rt25, rt18, rt11
+	 0.03 : rt27, rt25, rt18, rt12
+	 300.0 ::: rt27, rt25, rt18, rt12
+	 0.03 : rt27, rt25, rt19, rt13
+	 300.0 ::: rt27, rt25, rt19, rt13
+	 0.03 : rt27, rt25, rt19, rt14
+	 300.0 ::: rt27, rt25, rt19, rt14
+	 0.03 : rt27, rt25, rt20, rt15
+	 300.0 ::: rt27, rt25, rt20, rt15
+	 0.03 : rt27, rt25, rt20, rt16
+	 300.0 ::: rt27, rt25, rt20, rt16
+	 0.02 : rt27, rt25, rt17
+	 200.0 ::: rt27, rt25, rt17
+	 0.02 : rt27, rt25, rt18
+	 200.0 ::: rt27, rt25, rt18
+	 0.02 : rt27, rt25, rt19
+	 200.0 ::: rt27, rt25, rt19
+	 0.02 : rt27, rt25, rt20
+	 200.0 ::: rt27, rt25, rt20
+	 0.03 : rt27, rt25, rt17, rt21
+	 300.0 ::: rt27, rt25, rt17, rt21
+	 0.03 : rt27, rt25, rt18, rt22
+	 300.0 ::: rt27, rt25, rt18, rt22
+	 0.03 : rt27, rt25, rt19, rt23
+	 300.0 ::: rt27, rt25, rt19, rt23
+	 0.03 : rt27, rt25, rt20, rt24
+	 300.0 ::: rt27, rt25, rt20, rt24
+	 0.01 : rt27, rt25
+	 100.0 ::: rt27, rt25
+	 0.02 : rt27, rt25, rt26
+	 200.0 ::: rt27, rt25, rt26
+Starting BFS
+*********** START apply_BFS_modified ***********  [1, 2, 3, 4]
+answer map:  27 0
+answer map:  25 0.01
+answer map:  17 0.02
+answer map:  18 0.02
+answer map:  19 0.02
+answer map:  20 0.02
+answer map:  26 0.02
+answer map:  15 0.03
+answer map:  16 0.03
+answer map:  24 0.03
+answer map:  8 0.034999999999999996
+answer map:  1 0.039999999999999994
+answer map:  2 0.039999999999999994
+answer map:  3 0.039999999999999994
+answer map:  4 0.039999999999999994
+answer map:  5 0.04499999999999999
+answer map:  6 0.04499999999999999
+answer map:  7 0.04499999999999999
+answer map:  13 0.03
+answer map:  14 0.03
+answer map:  11 0.03
+answer map:  12 0.03
+answer map:  9 0.03
+answer map:  10 0.03
+answer map:  23 0.03
+answer map:  22 0.03
+answer map:  21 0.03
+length of self.unique_list_answers_found:  16
+Chosen node is:  1  with cost:  0.039999999999999994
+HEYYYYYY:  [27, 25, 20, 16, 8, 1]
+Selected path:  27,25,20,16,8,1  with final_cost:  700.0
+A* just started ...
+Initial node:  27
+Target node:  1
+A* path:  [27, 25, 17, 9, 5, 1]  with cost:  700.0
+
+
+*******************************************************************************************************************************************************************************
+
+
+Starting Dijkstra
+final_dist:  {'rt1': 0.039999999999999994, 'rt2': 0.039999999999999994, 'rt3': 0.039999999999999994, 'rt4': 0.039999999999999994, 'rt5': 0.034999999999999996, 'rt6': 0.034999999999999996, 'rt7': 0.034999999999999996, 'rt8': 0.034999999999999996, 'rt9': 0.03, 'rt10': 0.03, 'rt11': 0.03, 'rt12': 0.03, 'rt13': 0.03, 'rt14': 0.03, 'rt15': 0.03, 'rt16': 0.03, 'rt17': 0.02, 'rt18': 0.02, 'rt19': 0.02, 'rt20': 0.02, 'rt21': 0.03, 'rt22': 0.03, 'rt23': 0.03, 'rt24': 0.03, 'rt25': 0.01, 'rt26': 0, 'rt27': 0.02}
+	 0.039999999999999994 : rt26, rt25, rt17, rt10, rt5, rt1
+	 700.0 ::: rt26, rt25, rt17, rt10, rt5, rt1
+	 0.039999999999999994 : rt26, rt25, rt17, rt10, rt5, rt2
+	 700.0 ::: rt26, rt25, rt17, rt10, rt5, rt2
+	 0.039999999999999994 : rt26, rt25, rt17, rt10, rt5, rt3
+	 700.0 ::: rt26, rt25, rt17, rt10, rt5, rt3
+	 0.039999999999999994 : rt26, rt25, rt17, rt10, rt5, rt4
+	 700.0 ::: rt26, rt25, rt17, rt10, rt5, rt4
+	 0.034999999999999996 : rt26, rt25, rt17, rt10, rt5
+	 500.0 ::: rt26, rt25, rt17, rt10, rt5
+	 0.034999999999999996 : rt26, rt25, rt18, rt11, rt6
+	 500.0 ::: rt26, rt25, rt18, rt11, rt6
+	 0.034999999999999996 : rt26, rt25, rt19, rt13, rt7
+	 500.0 ::: rt26, rt25, rt19, rt13, rt7
+	 0.034999999999999996 : rt26, rt25, rt20, rt15, rt8
+	 500.0 ::: rt26, rt25, rt20, rt15, rt8
+	 0.03 : rt26, rt25, rt17, rt9
+	 300.0 ::: rt26, rt25, rt17, rt9
+	 0.03 : rt26, rt25, rt17, rt10
+	 300.0 ::: rt26, rt25, rt17, rt10
+	 0.03 : rt26, rt25, rt18, rt11
+	 300.0 ::: rt26, rt25, rt18, rt11
+	 0.03 : rt26, rt25, rt18, rt12
+	 300.0 ::: rt26, rt25, rt18, rt12
+	 0.03 : rt26, rt25, rt19, rt13
+	 300.0 ::: rt26, rt25, rt19, rt13
+	 0.03 : rt26, rt25, rt19, rt14
+	 300.0 ::: rt26, rt25, rt19, rt14
+	 0.03 : rt26, rt25, rt20, rt15
+	 300.0 ::: rt26, rt25, rt20, rt15
+	 0.03 : rt26, rt25, rt20, rt16
+	 300.0 ::: rt26, rt25, rt20, rt16
+	 0.02 : rt26, rt25, rt17
+	 200.0 ::: rt26, rt25, rt17
+	 0.02 : rt26, rt25, rt18
+	 200.0 ::: rt26, rt25, rt18
+	 0.02 : rt26, rt25, rt19
+	 200.0 ::: rt26, rt25, rt19
+	 0.02 : rt26, rt25, rt20
+	 200.0 ::: rt26, rt25, rt20
+	 0.03 : rt26, rt25, rt17, rt21
+	 300.0 ::: rt26, rt25, rt17, rt21
+	 0.03 : rt26, rt25, rt18, rt22
+	 300.0 ::: rt26, rt25, rt18, rt22
+	 0.03 : rt26, rt25, rt19, rt23
+	 300.0 ::: rt26, rt25, rt19, rt23
+	 0.03 : rt26, rt25, rt20, rt24
+	 300.0 ::: rt26, rt25, rt20, rt24
+	 0.01 : rt26, rt25
+	 100.0 ::: rt26, rt25
+	 0.02 : rt26, rt25, rt27
+	 200.0 ::: rt26, rt25, rt27
+Starting BFS
+*********** START apply_BFS_modified ***********  [1, 2, 3, 4]
+answer map:  26 0
+answer map:  25 0.01
+answer map:  17 0.02
+answer map:  18 0.02
+answer map:  19 0.02
+answer map:  20 0.02
+answer map:  27 0.02
+answer map:  15 0.03
+answer map:  16 0.03
+answer map:  24 0.03
+answer map:  8 0.034999999999999996
+answer map:  1 0.039999999999999994
+answer map:  2 0.039999999999999994
+answer map:  3 0.039999999999999994
+answer map:  4 0.039999999999999994
+answer map:  5 0.04499999999999999
+answer map:  6 0.04499999999999999
+answer map:  7 0.04499999999999999
+answer map:  13 0.03
+answer map:  14 0.03
+answer map:  11 0.03
+answer map:  12 0.03
+answer map:  9 0.03
+answer map:  10 0.03
+answer map:  23 0.03
+answer map:  22 0.03
+answer map:  21 0.03
+length of self.unique_list_answers_found:  16
+Chosen node is:  1  with cost:  0.039999999999999994
+HEYYYYYY:  [26, 25, 20, 16, 8, 1]
+Selected path:  26,25,20,16,8,1  with final_cost:  700.0
+A* just started ...
+Initial node:  26
+Target node:  1
+A* path:  [26, 25, 17, 9, 5, 1]  with cost:  700.0
+
+
+
+*******************************************************************************************************************************************************************************
+
+
+
+Starting Dijkstra
+final_dist:  {'rt1': 0.030000000000000002, 'rt2': 0.030000000000000002, 'rt3': 0.030000000000000002, 'rt4': 0.030000000000000002, 'rt5': 0.035, 'rt6': 0.035, 'rt7': 0.025, 'rt8': 0.035, 'rt9': 0.04, 'rt10': 0.04, 'rt11': 0.04, 'rt12': 0.04, 'rt13': 0.02, 'rt14': 0.02, 'rt15': 0.04, 'rt16': 0.04, 'rt17': 0.03, 'rt18': 0.03, 'rt19': 0.01, 'rt20': 0.03, 'rt21': 0.04, 'rt22': 0.04, 'rt23': 0, 'rt24': 0.04, 'rt25': 0.02, 'rt26': 0.03, 'rt27': 0.03}
+	 0.030000000000000002 : rt23, rt19, rt13, rt7, rt1
+	 600.0 ::: rt23, rt19, rt13, rt7, rt1
+	 0.030000000000000002 : rt23, rt19, rt13, rt7, rt2
+	 600.0 ::: rt23, rt19, rt13, rt7, rt2
+	 0.030000000000000002 : rt23, rt19, rt13, rt7, rt3
+	 600.0 ::: rt23, rt19, rt13, rt7, rt3
+	 0.030000000000000002 : rt23, rt19, rt13, rt7, rt4
+	 600.0 ::: rt23, rt19, rt13, rt7, rt4
+	 0.035 : rt23, rt19, rt13, rt7, rt1, rt5
+	 800.0 ::: rt23, rt19, rt13, rt7, rt1, rt5
+	 0.035 : rt23, rt19, rt13, rt7, rt1, rt6
+	 800.0 ::: rt23, rt19, rt13, rt7, rt1, rt6
+	 0.025 : rt23, rt19, rt13, rt7
+	 400.0 ::: rt23, rt19, rt13, rt7
+	 0.035 : rt23, rt19, rt13, rt7, rt1, rt8
+	 800.0 ::: rt23, rt19, rt13, rt7, rt1, rt8
+	 0.04 : rt23, rt19, rt25, rt17, rt9
+	 400.0 ::: rt23, rt19, rt25, rt17, rt9
+	 0.04 : rt23, rt19, rt25, rt17, rt10
+	 400.0 ::: rt23, rt19, rt25, rt17, rt10
+	 0.04 : rt23, rt19, rt25, rt18, rt11
+	 400.0 ::: rt23, rt19, rt25, rt18, rt11
+	 0.04 : rt23, rt19, rt25, rt18, rt12
+	 400.0 ::: rt23, rt19, rt25, rt18, rt12
+	 0.02 : rt23, rt19, rt13
+	 200.0 ::: rt23, rt19, rt13
+	 0.02 : rt23, rt19, rt14
+	 200.0 ::: rt23, rt19, rt14
+	 0.04 : rt23, rt19, rt25, rt20, rt15
+	 400.0 ::: rt23, rt19, rt25, rt20, rt15
+	 0.04 : rt23, rt19, rt25, rt20, rt16
+	 400.0 ::: rt23, rt19, rt25, rt20, rt16
+	 0.03 : rt23, rt19, rt25, rt17
+	 300.0 ::: rt23, rt19, rt25, rt17
+	 0.03 : rt23, rt19, rt25, rt18
+	 300.0 ::: rt23, rt19, rt25, rt18
+	 0.01 : rt23, rt19
+	 100.0 ::: rt23, rt19
+	 0.03 : rt23, rt19, rt25, rt20
+	 300.0 ::: rt23, rt19, rt25, rt20
+	 0.04 : rt23, rt19, rt25, rt17, rt21
+	 400.0 ::: rt23, rt19, rt25, rt17, rt21
+	 0.04 : rt23, rt19, rt25, rt18, rt22
+	 400.0 ::: rt23, rt19, rt25, rt18, rt22
+	 0.04 : rt23, rt19, rt25, rt20, rt24
+	 400.0 ::: rt23, rt19, rt25, rt20, rt24
+	 0.02 : rt23, rt19, rt25
+	 200.0 ::: rt23, rt19, rt25
+	 0.03 : rt23, rt19, rt25, rt26
+	 300.0 ::: rt23, rt19, rt25, rt26
+	 0.03 : rt23, rt19, rt25, rt27
+	 300.0 ::: rt23, rt19, rt25, rt27
+Starting BFS
+*********** START apply_BFS_modified ***********  [7]
+answer map:  23 0
+answer map:  19 0.01
+answer map:  13 0.02
+answer map:  14 0.02
+answer map:  25 0.02
+answer map:  17 0.03
+answer map:  18 0.03
+answer map:  20 0.03
+answer map:  26 0.03
+answer map:  27 0.03
+answer map:  15 0.04
+answer map:  16 0.04
+answer map:  24 0.04
+answer map:  8 0.045
+answer map:  1 0.049999999999999996
+answer map:  2 0.049999999999999996
+answer map:  3 0.049999999999999996
+answer map:  4 0.049999999999999996
+answer map:  5 0.05499999999999999
+answer map:  6 0.05499999999999999
+answer map:  7 0.025
+answer map:  11 0.04
+answer map:  12 0.04
+answer map:  9 0.04
+answer map:  10 0.04
+answer map:  22 0.04
+answer map:  21 0.04
+length of self.unique_list_answers_found:  6
+Chosen node is:  7  with cost:  0.025
+HEYYYYYY:  [23, 19, 25, 20, 16, 8, 4, 7]
+Selected path:  23,19,25,20,16,8,4,7  with final_cost:  1000.0
+A* just started ...
+Initial node:  23
+Target node:  7
+A* path:  [23, 19, 13, 7]  with cost:  400.0
+
+
+********************************************************************************************************************************************************
+
+
+Starting Dijkstra
+final_dist:  {'rt1': 0.02, 'rt2': 0.02, 'rt3': 0.02, 'rt4': 0.02, 'rt5': 0.025, 'rt6': 0.015, 'rt7': 0.025, 'rt8': 0.025, 'rt9': 0.03, 'rt10': 0.03, 'rt11': 0.01, 'rt12': 0.01, 'rt13': 0.03, 'rt14': 0.03, 'rt15': 0.03, 'rt16': 0.03, 'rt17': 0.02, 'rt18': 0, 'rt19': 0.02, 'rt20': 0.02, 'rt21': 0.03, 'rt22': 0.01, 'rt23': 0.03, 'rt24': 0.03, 'rt25': 0.01, 'rt26': 0.02, 'rt27': 0.02}
+	 0.02 : rt18, rt11, rt6, rt1
+	 500.0 ::: rt18, rt11, rt6, rt1
+	 0.02 : rt18, rt11, rt6, rt2
+	 500.0 ::: rt18, rt11, rt6, rt2
+	 0.02 : rt18, rt11, rt6, rt3
+	 500.0 ::: rt18, rt11, rt6, rt3
+	 0.02 : rt18, rt11, rt6, rt4
+	 500.0 ::: rt18, rt11, rt6, rt4
+	 0.025 : rt18, rt11, rt6, rt1, rt5
+	 700.0 ::: rt18, rt11, rt6, rt1, rt5
+	 0.015 : rt18, rt11, rt6
+	 300.0 ::: rt18, rt11, rt6
+	 0.025 : rt18, rt11, rt6, rt1, rt7
+	 700.0 ::: rt18, rt11, rt6, rt1, rt7
+	 0.025 : rt18, rt11, rt6, rt1, rt8
+	 700.0 ::: rt18, rt11, rt6, rt1, rt8
+	 0.03 : rt18, rt25, rt17, rt9
+	 300.0 ::: rt18, rt25, rt17, rt9
+	 0.03 : rt18, rt25, rt17, rt10
+	 300.0 ::: rt18, rt25, rt17, rt10
+	 0.01 : rt18, rt11
+	 100.0 ::: rt18, rt11
+	 0.01 : rt18, rt12
+	 100.0 ::: rt18, rt12
+	 0.03 : rt18, rt25, rt19, rt13
+	 300.0 ::: rt18, rt25, rt19, rt13
+	 0.03 : rt18, rt25, rt19, rt14
+	 300.0 ::: rt18, rt25, rt19, rt14
+	 0.03 : rt18, rt25, rt20, rt15
+	 300.0 ::: rt18, rt25, rt20, rt15
+	 0.03 : rt18, rt25, rt20, rt16
+	 300.0 ::: rt18, rt25, rt20, rt16
+	 0.02 : rt18, rt25, rt17
+	 200.0 ::: rt18, rt25, rt17
+	 0.02 : rt18, rt25, rt19
+	 200.0 ::: rt18, rt25, rt19
+	 0.02 : rt18, rt25, rt20
+	 200.0 ::: rt18, rt25, rt20
+	 0.03 : rt18, rt25, rt17, rt21
+	 300.0 ::: rt18, rt25, rt17, rt21
+	 0.01 : rt18, rt22
+	 100.0 ::: rt18, rt22
+	 0.03 : rt18, rt25, rt19, rt23
+	 300.0 ::: rt18, rt25, rt19, rt23
+	 0.03 : rt18, rt25, rt20, rt24
+	 300.0 ::: rt18, rt25, rt20, rt24
+	 0.01 : rt18, rt25
+	 100.0 ::: rt18, rt25
+	 0.02 : rt18, rt25, rt26
+	 200.0 ::: rt18, rt25, rt26
+	 0.02 : rt18, rt25, rt27
+	 200.0 ::: rt18, rt25, rt27
+Starting BFS
+*********** START apply_BFS_modified ***********  [2]
+neighbors:  [('18', '11'), ('18', '12'), ('18', '22'), ('18', '25')]
+neighbors:  [('25', '17'), ('25', '18'), ('25', '19'), ('25', '20'), ('25', '26'), ('25', '27')]
+neighbors:  [('27', '25')]
+neighbors:  [('26', '25')]
+neighbors:  [('20', '15'), ('20', '16'), ('20', '24'), ('20', '25')]
+neighbors:  [('24', '20')]
+neighbors:  [('16', '8'), ('16', '20')]
+neighbors:  [('8', '1'), ('8', '2'), ('8', '3'), ('8', '4'), ('8', '15'), ('8', '16')]
+neighbors:  [('4', '5'), ('4', '6'), ('4', '7'), ('4', '8')]
+neighbors:  [('7', '1'), ('7', '2'), ('7', '3'), ('7', '4'), ('7', '13'), ('7', '14')]
+neighbors:  [('14', '7'), ('14', '19')]
+neighbors:  [('13', '7'), ('13', '19')]
+neighbors:  [('6', '1'), ('6', '2'), ('6', '3'), ('6', '4'), ('6', '11'), ('6', '12')]
+neighbors:  [('5', '1'), ('5', '2'), ('5', '3'), ('5', '4'), ('5', '9'), ('5', '10')]
+neighbors:  [('10', '5'), ('10', '17')]
+neighbors:  [('9', '5'), ('9', '17')]
+neighbors:  [('3', '5'), ('3', '6'), ('3', '7'), ('3', '8')]
+neighbors:  [('2', '5'), ('2', '6'), ('2', '7'), ('2', '8')]
+neighbors:  [('1', '5'), ('1', '6'), ('1', '7'), ('1', '8')]
+neighbors:  [('15', '8'), ('15', '20')]
+neighbors:  [('19', '13'), ('19', '14'), ('19', '23'), ('19', '25')]
+neighbors:  [('23', '19')]
+neighbors:  [('17', '9'), ('17', '10'), ('17', '21'), ('17', '25')]
+neighbors:  [('21', '17')]
+neighbors:  [('22', '18')]
+neighbors:  [('12', '6'), ('12', '18')]
+neighbors:  [('11', '6'), ('11', '18')]
+answer map:  18 0
+answer map:  11 0.01
+answer map:  12 0.01
+answer map:  22 0.01
+answer map:  25 0.01
+answer map:  17 0.02
+answer map:  19 0.02
+answer map:  20 0.02
+answer map:  26 0.02
+answer map:  27 0.02
+answer map:  15 0.03
+answer map:  16 0.03
+answer map:  24 0.03
+answer map:  8 0.034999999999999996
+answer map:  1 0.039999999999999994
+answer map:  2 0.039999999999999994
+answer map:  3 0.039999999999999994
+answer map:  4 0.039999999999999994
+answer map:  5 0.04499999999999999
+answer map:  6 0.015
+answer map:  7 0.04499999999999999
+answer map:  13 0.03
+answer map:  14 0.03
+answer map:  9 0.03
+answer map:  10 0.03
+answer map:  23 0.03
+answer map:  21 0.03
+length of self.unique_list_answers_found:  4
+Chosen node is:  2  with cost:  0.039999999999999994
+HEYYYYYY:  [18, 25, 20, 16, 8, 2]
+Selected path:  18,25,20,16,8,2  with final_cost:  700.0
+A* just started ...
+Initial node:  18
+Target node:  2
+A* path:  [18, 11, 6, 2]  with cost:  500.0
